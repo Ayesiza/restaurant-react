@@ -1,0 +1,44 @@
+.register{
+    height: 100vh;
+    padding: 50px;
+   
+    background: linear-gradient(to right,  #BC1823 30%, #EFEFEF 0%);
+}
+form{
+    margin-top: 20px;
+}
+input{
+    
+    display: flex;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+    border-radius: 5px;
+   }
+   textarea{
+       width: 100%;
+   }
+   .register-wrapper{
+       padding: 50px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+   }
+   button{
+       width: 100%;
+       border: none;
+       color: white;
+       background-color: #BC1823;
+       border-radius: 40px;
+       padding: 10px;
+       cursor: pointer;
+       margin-top: 20px;
+       font-size: 20px;
+       
+
+    }
