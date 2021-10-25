@@ -23,10 +23,10 @@ function Register() {
         <form ref={formRef} onSubmit={handleSubmit}>
               <h2>Email Us</h2>
                <input type="text" placeholder="UserName" name="user_name"  />
-               <input type="text" placeholder="Subject" name="user_subject"  />
+               <input className="register-input" type="text" placeholder="Subject" name="user_subject"  />
                  <input type="email" placeholder="Email" name="user_email"/>
                <textarea name="message" placeholder="Message" cols="30" rows="10"></textarea>
-               <button>Submit</button>
+               <button className="register-button">Submit</button>
                {done && "Thank you"}
             </form>
             </div> 
